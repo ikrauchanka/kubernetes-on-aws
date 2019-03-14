@@ -185,5 +185,8 @@ coreos_image: "ami-00946a0f23931daac" # Container Linux 1967.6.0 (HVM, eu-centra
 # Temporary feature toggle for the new flannel awaiter
 experimental_flannel_awaiter: "true"
 
+# Feature toggle to allow gradual decommissioning of ingress-template-controller
+enable_ingress_template_controller: "false"
+
 # Temporary feature toggle for the new daemonset scheduler
 experimental_schedule_daemonset_pods: "false"
